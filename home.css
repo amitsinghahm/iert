@@ -1,0 +1,744 @@
+body {
+    width: 100%;
+    margin: 0px 0 0 0;
+    overflow-x: hidden;
+}
+
+/*--- logo and upper college name--*/
+.logo img {
+    margin: 10px 0 0px 30px;
+    width: 205px;
+    height: 120px;
+}
+
+#college-eng {
+    margin-top: 27px;
+}
+
+#college-hin {
+    margin-top: -45px;
+}
+
+/*----end of logo and upper college name--*/
+
+
+/*--------------navbar--------------------*/
+.navbar-brand h1 {
+    margin-left: -30px;
+    font-size: 35px;
+    letter-spacing: 3px;
+}
+
+nav.navbar-dark {
+    background: rgba(2, 2, 2, 1);
+    font-size: 18px;
+    position: relative;
+}
+
+
+.navbar-nav,
+.navbar-brand {
+    margin-left: 55px;
+}
+
+.nav-item {
+    padding-right: 10px;
+}
+/*--------------end of navbar-----------------*/
+
+
+
+/*--------------------mega menu-----------------*/
+
+.navbar-nav li {
+    font-size: 15px;
+}
+
+.mega-menu {
+    width: 580px;
+    overflow: hidden;
+    padding: 20px;
+    background-color: rgba(2, 2, 2, 1);
+}
+
+.dropdown-toggle:active {
+    position: relative;
+    top: 1px;
+}
+
+.mega-menu h5 {
+    font-size: 15px;
+    color: #14e017;
+}
+
+.mega-menu h5 a {
+    color: #a6a8a8;
+    text-decoration: none;
+}
+
+.mega-menu h5 a:hover {
+    color: white;
+}
+
+.mega-menu h6 {
+    font-size: 13px;
+}
+
+.mega-menu h6 a {
+    font-size: 13px;
+    color: #a6a8a8;
+    text-decoration: none;
+}
+
+.mega-menu h6 a:hover {
+    color: white;
+}
+
+/*--for institute--*/
+#instituteDropdown:hover {
+    color: #e55032;
+}
+
+#instituteMenu h3 {
+    background-color: #e55032;
+    color: white;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+
+/*-----for academic----*/
+#academicDropdown:hover {
+    color: #af0c0c;
+}
+
+#academicMenu h3 {
+    background-color: #af0c0c;
+    color: white;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+/*-----for division----*/
+#divisionDropdown:hover {
+    color: #045b9e;
+}
+
+#divisionMenu h3 {
+    background-color: #045b9e;
+    color: white;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+
+/*-----for facility----*/
+#facilityDropdown:hover {
+    color: #a30683;
+}
+
+#facilityMenu h3 {
+    background-color: #a30683;
+    color: white;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+/*-----for Quick Links----*/
+#quickLinkDropdown:hover {
+    color: #e0d50d;
+}
+
+#quickLinkMenu h3 {
+    background-color: #e0d50d;
+    color: white;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+/*------end of mega menu--------*/
+
+/*--------announcent------------*/
+
+.marquee_div {
+    background-color: #000;
+    text-align: center;
+}
+
+.marquee-row {
+    margin: 20px 0 0;
+    padding: 15px 0 10px;
+}
+
+.marquee-content .more {
+    text-align: right;
+}
+
+.marquee-content .more a {
+    color: white;
+}
+
+.announcements {
+    top: 25px;
+    color: #1ed8d8;
+}
+
+.announcements p {
+    font-size: 18px;
+    letter-spacing: -0.9px;
+}
+
+marquee {
+    background: #fff;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-left: -10px;
+}
+
+marquee span {
+    color: #ff2c07;
+}
+
+marquee p a {
+    color: black;
+}
+
+
+/*-----end of announcement------*/
+
+/*---------carousel------*/
+
+.carousel-inner img {
+    width: 750px;
+    height: 550px;
+}
+
+.carousel-caption h3 {
+    font-size: 70px;
+    text-shadow: 5px -2px 4px #000;
+}
+
+
+/*-- for vertical border in mega menu--*/
+
+.vertical-border {
+    border-left: solid 1px #ddd;
+}
+
+/*
+.cover {
+    
+    display: table;
+    width: 100%;
+    padding: 0 20%;
+}
+
+.cover-text {
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.cover-text h1 {
+    margin: 0px;
+    font-size: 70px;
+    letter-spacing: -3px;
+}
+*/
+
+
+/*-----modal-------*/
+.modal-content {
+    /*background-color: #f2f2f2;*/
+    padding: 0px 0 0;
+}
+
+.close {
+    text-align: right;
+    margin: 15px 20px 0 0;
+}
+
+#myModal img {
+    width: 140px;
+    height: 80px;
+}
+
+.modal-header {
+    border-bottom: solid 1px #dde;
+}
+
+.modal-header h4 {
+        font-size: 18px;
+}
+
+.modal-body {
+    padding-top: 40px;
+}
+
+section {
+    padding: 100px 0; 
+}
+
+/*----testimonial--*/
+.testimonial {
+    position: relative;
+    background: #011121;
+    width: 100%;
+}
+
+.strip {
+    position: absolute;
+    width:100%;
+    height: 40px;
+    background-color: #f1f1f1;
+}
+
+#top-strip {
+    margin-top: -70px;
+}
+
+#bottom-strip {
+    margin-top: 25px;
+}
+
+#nest-top-strip {
+    position: absolute;
+    height: 40px;
+    width: 60px;
+    right: 40px;
+    -webkit-transform: skew(-45deg);
+    -moz-transform: skew(-45deg);
+    -o-transform: skew(-45deg);
+    background-color: #011121;    
+}
+
+#nest-bottom-strip {
+    position: absolute;
+    height: 40px;
+    width: 60px;
+    left: 40px;
+    -webkit-transform: skew(45deg);
+    -moz-transform: skew(-45deg);
+    -o-transform: skew(-45deg);
+    background-color: #011121;    
+}
+
+.testimonial img {
+    width: 275px;
+    height: 300px;
+    /*margin: 0 0 0 -25px;*/
+}
+
+blockquote {
+    color: white;
+    border: none;
+    margin: 0 -50px 0 0px;
+    padding-left: 100px;
+    
+    font-family: serif;
+    font-style: italic;
+    font-size: 25px;
+}
+
+blockquote a {
+    color: #7a89ff;
+}
+
+blockquote a:hover {
+    text-decoration: none;
+    color: aqua;
+}
+
+blockquote cite {
+    display: block;
+    text-align: right;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    color: #aaa;
+    margin: 40px 50px 0 0px;
+}
+
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 27px;
+    margin: 0 0 60px;
+}
+
+h3 {
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+#why-us p {
+    font-size: 15px;
+}
+
+#team {
+    background-color: #0f2954;
+    color: #ff5d00;
+    text-align: center;
+}
+
+.team3 {
+    margin-bottom: 50px;
+}
+
+figure a {
+    color: white;
+}
+
+
+#team p {
+    font-size: 15px;
+}
+
+#dstPic {
+    background-color: white;
+}
+
+#team figure a:hover {
+    text-decoration: none;
+    color: #ccd1cc;
+}
+
+#sign-up p {
+    text-align: center;
+    margin-top: -60px;
+}
+
+footer {
+    background: #222;
+    padding: 10px 0;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+}
+
+
+/*-------------------------------- Media Queries--------------------------- */
+
+@media only screen and ( max-width: 575.98px ) {
+    
+    /*--- logo--*/
+    .logo img {
+        display: block;
+        margin: 10px auto;
+        width: 150px;
+        height: 90px;
+    }
+    
+    .college-name {
+        display: none;
+    }
+    
+    
+    /*--------------
+    mega menu
+--------------*/
+    
+    .mega-menu {
+        width: 100%;
+        margin: 0 13px 0 -25px;
+        border: none;
+    }
+    
+    nav.navbar.fixed-top {
+        max-height: 100%;
+        overflow: auto;
+    }
+    
+    .navbar-nav {
+        margin: 0;
+    }
+    
+    .vertical-border {
+        border-left: 0px;
+    }
+        
+    .cover {
+        padding: 0 2% 0 1%;
+    }
+    
+    .cover-text h1 {
+        font-size: 33px;
+        letter-spacing: 0px;
+        width: 100%;
+    }
+    
+    .cover-text p {
+        font-size: 16px;
+    }
+    
+    .cover-text a {
+        font-size: 16px;
+    }
+    
+    /*----modal----*/
+    .modal-header h4 {
+        display: none;
+    }
+    
+    section {
+        padding: 0;
+    }
+    
+    .testimonial img {
+        width: 90%;
+        height: 80%;
+        margin: 30px auto;
+    }
+    
+    .strip, 
+    #nest-top-strip,
+    #nest-bottom-strip {
+        display: none;
+    }
+    
+    blockquote {
+        font-size: 20px;
+        padding: 15px 0;
+        margin-right: -5px;
+    }
+    
+    blockquote cite {
+        font-size: 14px;
+        margin-top: 10px;
+        padding-right: 50px;
+    }
+    
+    #why-us {
+        margin-bottom: 20px;
+    }
+    
+    #why-us h2 {
+        margin: 25px 0;
+    }
+    
+    #team h2 {
+        padding: 15px 0 0;
+        margin-bottom: 30px;
+    }
+    
+    #sign-up {
+        margin-top: 20px;
+    }
+    
+    #sign-up p {
+        font-size: 16px;
+    }
+    
+    /*-----carousel---*/
+    
+    .carousel-inner img {
+        width: 95%;
+        height: 70%;
+    }
+    
+    .carousel-caption {
+        padding: 0;
+        margin-bottom: 20px;
+    }
+    
+    .carousel-caption h3 {
+        font-size: 20px;
+    }
+    
+    footer {
+        margin-top: 30px;
+    }
+    
+}
+
+/*---------------------------------------media query-------------------------------*/
+
+@media only screen and ( max-width: 767.98px ) and ( min-width: 575.99px ) {
+    
+    
+    /*--- logo--*/
+    .logo img {
+        display: block;
+        margin: 10px auto;
+    }
+    
+    .college-name {
+        display: none;
+    }
+    
+    /*---------mega menu------*/
+
+    .mega-menu {
+        width: 100%;
+    }
+    
+    nav.navbar.fixed-top {
+        max-height: 100%;
+        overflow: auto;
+    }
+    
+    .navbar-nav {
+        margin: 0;
+    }
+    
+    .vertical-border {
+        border-left: 0px;
+    }
+    
+    
+    /*
+    .cover {
+        padding: 0 4%;
+    }
+
+    .cover-text h1 {;
+        font-size: 55px;
+        letter-spacing: -2px;
+        width: 100%;
+    }
+
+    .cover-text p {
+        font-size: 20px;
+    }*/
+    
+    
+    /*----modal----*/
+    .modal-header h4 {
+        font-size: 16px;
+        font-weight: 630;
+    }
+    
+    section {
+        padding: 5px;
+    }
+    
+    .testimonial {
+        padding: 0;
+        margin: 0;
+        
+    }
+    
+    .testimonial img {
+        width: 90%;
+        height: 80%;
+        margin: 30px auto;
+    }
+    
+    .strip, 
+    #nest-top-strip,
+    #nest-bottom-strip {
+        display: none;
+    }
+    
+    blockquote {
+        font-size: 24px;
+        padding: 20px 0;
+        margin-right: -10px;
+    }
+
+    blockquote cite {
+        font-size: 16px;
+        margin-top: 15x;
+        padding-right: 40px;
+    }
+
+    #why-us {
+        margin: 15px 0px;
+    }
+    
+    #why-us h2 {
+        margin: 25px 0;
+    }
+        
+    #team h2 {
+        padding: 15px 0 0;
+        margin-bottom: 30px;
+    }
+    
+    #team img,
+    h4,
+    p {
+        width: 90%;
+    }
+    
+    #sign-up {
+        margin-top: 20px;
+    }
+    
+    #sign-up p {
+        font-size: 16px;
+    }
+    
+    /*----carousel----*/
+    
+    .carousel-inner img {
+        width: 95%;
+        height: 70%;
+    }
+    
+    .carousel-caption {
+        padding: 0;
+        margin-bottom: 20px;
+    }
+    
+    .carousel-caption p {
+        display: none;
+    }
+    
+    .carousel-caption h3 {
+        font-size: 45px;
+    }
+    
+    footer {
+      margin-top: 30px;
+    }
+    
+}
+
+
+/*----------------------for Announcements media queri------------------*/
+
+@media only screen and (max-width : 992px) {
+    
+    .marquee-content {
+        margin-top: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
