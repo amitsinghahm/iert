@@ -1,0 +1,33 @@
+.team  {
+    background: #08234c;
+    border-radius: 10px;
+}
+
+.team h2 {
+    color: white;
+    padding: 30px 0;
+    border-bottom: solid 1px #aaa;
+}
+
+.profile {
+    margin: 30px 0 10px;
+}
+
+figure {
+    padding: 30px;
+    background: #133d7c;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+figure .caption {
+    color: white;
+    padding: 40px 0 20px;
+    text-align: center;
+}
+
+figure .icon {
+    text-align: center;
+}
+
+

@@ -1,0 +1,323 @@
+body {
+    width: 100%;
+    margin: 0px 0 0 0;
+    overflow-x: hidden;
+}
+
+/*--- logo and upper college name--*/
+.logo img {
+    margin: 10px 0 0px 30px;
+    width: 205px;
+    height: 120px;
+}
+
+#college-eng {
+    margin-top: 27px;
+}
+
+#college-hin {
+    margin-top: -45px;
+}
+
+/*----end of logo and upper college name--*/
+
+
+/*--------------navbar--------------------*/
+.navbar-brand h1 {
+    margin-left: -30px;
+    font-size: 35px;
+    letter-spacing: 3px;
+}
+
+nav.navbar-dark {
+    background: rgba(2, 2, 2, 1);
+    font-size: 18px;
+    position: relative;
+}
+
+
+.navbar-nav,
+.navbar-brand {
+    margin-left: 55px;
+}
+
+.nav-item {
+    padding-right: 10px;
+}
+/*--------------end of navbar-----------------*/
+
+
+
+/*--------------------mega menu-----------------*/
+
+.navbar-nav li {
+    font-size: 15px;
+}
+
+.mega-menu {
+    width: 580px;
+    overflow: hidden;
+    padding: 20px;
+    background-color: rgba(2, 2, 2, 1);
+}
+
+.dropdown-toggle:active {
+    position: relative;
+    top: 1px;
+}
+
+.mega-menu h5 {
+    font-size: 15px;
+    color: #14e017;
+}
+
+.mega-menu h5 a {
+    color: #a6a8a8;
+    text-decoration: none;
+}
+
+.mega-menu h5 a:hover {
+    color: white;
+}
+
+.mega-menu h6 {
+    font-size: 13px;
+}
+
+.mega-menu h6 a {
+    font-size: 13px;
+    color: #a6a8a8;
+    text-decoration: none;
+}
+
+.mega-menu h6 a:hover {
+    color: white;
+}
+
+/*--for institute--*/
+#instituteDropdown:hover {
+    color: #e55032;
+}
+
+#instituteMenu h3 {
+    background-color: #e55032;
+    color: white;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+
+/*-----for academic----*/
+#academicDropdown:hover {
+    color: #af0c0c;
+}
+
+#academicMenu h3 {
+    background-color: #af0c0c;
+    color: white;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+/*-----for division----*/
+#divisionDropdown:hover {
+    color: #045b9e;
+}
+
+#divisionMenu h3 {
+    background-color: #045b9e;
+    color: white;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+
+/*-----for facility----*/
+#facilityDropdown:hover {
+    color: #a30683;
+}
+
+#facilityMenu h3 {
+    background-color: #a30683;
+    color: white;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+/*-----for Quick Links----*/
+#quickLinkDropdown:hover {
+    color: #e0d50d;
+}
+
+#quickLinkMenu h3 {
+    background-color: #e0d50d;
+    color: white;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+/*-- for vertical border in mega menu--*/
+
+.vertical-border {
+    border-left: solid 1px #ddd;
+}
+
+/*------end of mega menu--------*/
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 27px;
+    margin: 0 0 60px;
+}
+
+h3 {
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.page-head {
+    text-align: center;
+    margin: 100px 0 150px;
+}
+
+.about-place {
+    background-color: #062460;
+    padding: 20px 0;
+    color: white;
+}
+
+.about-place a {
+    color: cyan;
+    //text-decoration: underline
+}
+
+.place-head {
+    text-transform: capitalize;
+    padding-bottom: 30px;
+    border-bottom: solid 1px #aaa;
+}
+
+.about-place-content {
+    padding: 0px 0 50px;
+}
+
+.place {
+    margin: 30px 0;
+    padding: 20px 0;
+}
+
+.place-div {
+    margin: 30px 0;
+    text-align: center;
+}
+
+.list-group-item {
+    background: #08357c;
+    color: white;
+}
+
+footer {
+    background: #222;
+    padding: 10px 0;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+}
+
+/*-------------------------------- Media Queries--------------------------- */
+
+@media only screen and ( max-width: 575.98px ) {
+    
+    /*--- logo--*/
+    .logo img {
+        display: block;
+        margin: 10px auto;
+        width: 150px;
+        height: 90px;
+    }
+    
+    .college-name {
+        display: none;
+    }
+    
+    /*--------------
+    mega menu
+--------------*/
+    
+    .mega-menu {
+        width: 100%;
+        margin: 0 13px 0 -25px;
+        border: none;
+    }
+    
+    nav.navbar.fixed-top {
+        max-height: 100%;
+        overflow: auto;
+    }
+    
+    .navbar-nav {
+        margin: 0;
+    }
+    
+    .vertical-border {
+        border-left: 0px;
+    }
+        
+    footer {
+        margin-top: 30px;
+    }
+        
+}
+
+
+/*---------------------------------------media query-------------------------------*/
+
+@media only screen and ( max-width: 767.98px ) and ( min-width: 575.99px ) {
+    
+    
+    /*--- logo--*/
+    .logo img {
+        display: block;
+        margin: 10px auto;
+    }
+    
+    .college-name {
+        display: none;
+    }
+    
+    /*---------mega menu------*/
+
+    .mega-menu {
+        width: 100%;
+    }
+    
+    nav.navbar.fixed-top {
+        max-height: 100%;
+        overflow: auto;
+    }
+    
+    .navbar-nav {
+        margin: 0;
+    }
+    
+    .vertical-border {
+        border-left: 0px;
+    }
+    
+    .place img {
+        width: 60%
+    }
+    
+    footer {
+      margin-top: 30px;
+    }
+    
+}
+
+
+
+
+
